@@ -29,7 +29,6 @@ class App extends Component {
     ]
   };
 
-  // player id counter
   prevPlayerId = 4;
 
   handleScoreChange = (index, delta) => {
@@ -42,7 +41,6 @@ class App extends Component {
     this.setState(prevState => {
       return {
         players: [
-          // using the spread operator '...' to combine with new player obj
           ...prevState.players,
           {
             name: name,
@@ -77,8 +75,6 @@ class App extends Component {
       <div className="scoreboard">
         <Header title="Scoreboard" players={this.state.players} />
 
-        {/* map takes an opotional parameter 'index' 
-        that returns the index of the current element beingprocessed */}
         {this.state.players.map((player, index) => (
           <Player
             name={player.name}

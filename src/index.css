@@ -4,10 +4,6 @@ body {
   font-family: arial;
   text-transform: uppercase;
   font-family: "Play", sans-serif;
-  /* font-family: "Permanent Marker", cursive; */
-  /* font-family: "Prompt", sans-serif; */
-  /* font-family: "Orbitron", sans-serif; */
-  /* font-family: "Russo One", sans-serif; */
 }
 
 header {
@@ -16,7 +12,6 @@ header {
   text-align: center;
   display: flex;
   align-items: center;
-  /* background-color: #8063fa; */
   background-color: #ff9800;
   border-bottom: solid 2px #d4caff;
 }
@@ -26,14 +21,12 @@ header h1 {
   font-size: 2.5em;
   letter-spacing: 2px;
   font-weight: normal;
-  /* font-family: "Orbitron", sans-serif; */
   font-family: "Russo One", sans-serif;
 }
 
 /* FORMS */
 form {
   display: flex;
-  /* background-color: #8063fa; */
   background-color: #ff9800;
 }
 
@@ -43,7 +36,6 @@ input[type="text"] {
   margin: 15px 10px 15px 15px;
   padding: 10px;
   border-radius: 5px;
-  /* background-color: #5b45b9; */
   background-color: #ff5722;
   border-style: none;
   text-shadow: none;
@@ -54,7 +46,6 @@ input[type="text"] {
 }
 
 input[type="text"]::-webkit-input-placeholder {
-  /* color: #c7bcf8; */
   color: #dcdcdc;
   letter-spacing: 2px;
 }
@@ -110,7 +101,6 @@ svg {
   background: #fff;
   width: 700px;
   margin: 70px auto;
-  /* box-shadow: 0 2px 0 rgb(133, 104, 250); */
   border-radius: 6px;
   overflow: hidden;
 }

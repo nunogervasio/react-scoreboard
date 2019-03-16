@@ -1,10 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-// STATELESS COMPONENT with
-// DESTRUCTURING ASSIGNMENT
-// NOTE: see Header.js for notes
-
 const Counter = ({ index, score, changeScore }) => {
   return (
     <div className="counter">
